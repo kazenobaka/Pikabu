@@ -2,8 +2,8 @@
 //  SceneDelegate.swift
 //  Pikabu
 //
-//  Created by Алексей on 20.12.2020.
-//  Copyright © 2020 Алексей. All rights reserved.
+//  Created by Танчик on 20.12.2020.
+//  Copyright © 2020 Танчик. All rights reserved.
 //
 
 import UIKit
@@ -17,7 +17,28 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let windowScene = scene as? UIWindowScene else { return }
+        
+        let window = UIWindow(windowScene: windowScene)
+        
+        let feedNavigationController = UINavigationController()
+        feedNavigationController.tabBarItem.title = "Лента"
+        feedNavigationController.tabBarItem.image = UIImage(named: "feed")
+        let feedController = FeedController()
+        feedNavigationController.viewControllers = [feedController]
+        
+        let savedPostsNavigationController = UINavigationController()
+        savedPostsNavigationController.tabBarItem.title = "Пост"
+        savedPostsNavigationController.tabBarItem.image = UIImage(named: "save")
+        let savedPostsController = SavedPostsController()
+        savedPostsNavigationController.viewControllers = [savedPostsController]
+        
+        let mainTabBarController = UITabBarController()
+        mainTabBarController.viewControllers = [feedNavigationController, savedPostsNavigationController]
+        
+        window.rootViewController = mainTabBarController
+        self.window = window
+        window.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

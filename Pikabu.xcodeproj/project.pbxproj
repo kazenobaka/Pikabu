@@ -3,52 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F47482225935B21001A0822 /* ErrorCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47482125935B21001A0822 /* ErrorCollectionCell.swift */; };
 		1F926879258F6282009326F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F926878258F6282009326F7 /* AppDelegate.swift */; };
 		1F92687B258F6282009326F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92687A258F6282009326F7 /* SceneDelegate.swift */; };
 		1F92687D258F6282009326F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92687C258F6282009326F7 /* ViewController.swift */; };
-		1F926880258F6282009326F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F92687E258F6282009326F7 /* Main.storyboard */; };
 		1F926882258F6286009326F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F926881258F6286009326F7 /* Assets.xcassets */; };
 		1F926885258F6286009326F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F926883258F6286009326F7 /* LaunchScreen.storyboard */; };
-		1F926890258F6286009326F7 /* PikabuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92688F258F6286009326F7 /* PikabuTests.swift */; };
-		1F92689B258F6286009326F7 /* PikabuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92689A258F6286009326F7 /* PikabuUITests.swift */; };
+		1F9268A9258F6DEA009326F7 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9268A8258F6DEA009326F7 /* FeedController.swift */; };
+		1F9268AB258F6F59009326F7 /* SavedPostsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9268AA258F6F59009326F7 /* SavedPostsController.swift */; };
+		1F9268AD258F7274009326F7 /* PostsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9268AC258F7274009326F7 /* PostsService.swift */; };
+		1F9268AF258F7431009326F7 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9268AE258F7431009326F7 /* Post.swift */; };
+		1F9268B1258F8BFF009326F7 /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9268B0258F8BFF009326F7 /* PostCollectionViewCell.swift */; };
+		1FA2BA9A25922A7E007615CB /* LoadingCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA2BA9925922A7E007615CB /* LoadingCollectionCell.swift */; };
+		1FA4B11E2594A16100B7A38B /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4B11D2594A16100B7A38B /* PostViewController.swift */; };
+		1FA4B1202594C41100B7A38B /* EmptyCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4B11F2594C41100B7A38B /* EmptyCollectionCell.swift */; };
+		31BCB622FCB8F3E9C0A0D485 /* Pods_Pikabu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E773B1037C238CBE3C1ED2 /* Pods_Pikabu.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		1F92688C258F6286009326F7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1F92686D258F6282009326F7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1F926874258F6282009326F7;
-			remoteInfo = Pikabu;
-		};
-		1F926897258F6286009326F7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1F92686D258F6282009326F7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1F926874258F6282009326F7;
-			remoteInfo = Pikabu;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		1F47482125935B21001A0822 /* ErrorCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCollectionCell.swift; sourceTree = "<group>"; };
 		1F926875258F6282009326F7 /* Pikabu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pikabu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F926878258F6282009326F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F92687A258F6282009326F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1F92687C258F6282009326F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1F92687F258F6282009326F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F926881258F6286009326F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F926884258F6286009326F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F926886258F6286009326F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F92688B258F6286009326F7 /* PikabuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PikabuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F92688F258F6286009326F7 /* PikabuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PikabuTests.swift; sourceTree = "<group>"; };
-		1F926891258F6286009326F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F926896258F6286009326F7 /* PikabuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PikabuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F92689A258F6286009326F7 /* PikabuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PikabuUITests.swift; sourceTree = "<group>"; };
-		1F92689C258F6286009326F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9268A8258F6DEA009326F7 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		1F9268AA258F6F59009326F7 /* SavedPostsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPostsController.swift; sourceTree = "<group>"; };
+		1F9268AC258F7274009326F7 /* PostsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsService.swift; sourceTree = "<group>"; };
+		1F9268AE258F7431009326F7 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		1F9268B0258F8BFF009326F7 /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
+		1FA2BA9925922A7E007615CB /* LoadingCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCollectionCell.swift; sourceTree = "<group>"; };
+		1FA4B11D2594A16100B7A38B /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		1FA4B11F2594C41100B7A38B /* EmptyCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCollectionCell.swift; sourceTree = "<group>"; };
+		5B65BA75F840DE5EFE9AD9E6 /* Pods-Pikabu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pikabu.release.xcconfig"; path = "Target Support Files/Pods-Pikabu/Pods-Pikabu.release.xcconfig"; sourceTree = "<group>"; };
+		A7E773B1037C238CBE3C1ED2 /* Pods_Pikabu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pikabu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06F7336FA7C9D389E4E7CE7 /* Pods-Pikabu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pikabu.debug.xcconfig"; path = "Target Support Files/Pods-Pikabu/Pods-Pikabu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,20 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F926888258F6286009326F7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F926893258F6286009326F7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				31BCB622FCB8F3E9C0A0D485 /* Pods_Pikabu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,9 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				1F926877258F6282009326F7 /* Pikabu */,
-				1F92688E258F6286009326F7 /* PikabuTests */,
-				1F926899258F6286009326F7 /* PikabuUITests */,
 				1F926876258F6282009326F7 /* Products */,
+				C42B9A55AB9D82390D8892A0 /* Pods */,
+				C970A398C59809D97BFA36E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				1F926875258F6282009326F7 /* Pikabu.app */,
-				1F92688B258F6286009326F7 /* PikabuTests.xctest */,
-				1F926896258F6286009326F7 /* PikabuUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,7 +82,15 @@
 				1F926878258F6282009326F7 /* AppDelegate.swift */,
 				1F92687A258F6282009326F7 /* SceneDelegate.swift */,
 				1F92687C258F6282009326F7 /* ViewController.swift */,
-				1F92687E258F6282009326F7 /* Main.storyboard */,
+				1F9268AE258F7431009326F7 /* Post.swift */,
+				1F9268A8258F6DEA009326F7 /* FeedController.swift */,
+				1F9268B0258F8BFF009326F7 /* PostCollectionViewCell.swift */,
+				1FA2BA9925922A7E007615CB /* LoadingCollectionCell.swift */,
+				1F47482125935B21001A0822 /* ErrorCollectionCell.swift */,
+				1FA4B11D2594A16100B7A38B /* PostViewController.swift */,
+				1F9268AA258F6F59009326F7 /* SavedPostsController.swift */,
+				1FA4B11F2594C41100B7A38B /* EmptyCollectionCell.swift */,
+				1F9268AC258F7274009326F7 /* PostsService.swift */,
 				1F926881258F6286009326F7 /* Assets.xcassets */,
 				1F926883258F6286009326F7 /* LaunchScreen.storyboard */,
 				1F926886258F6286009326F7 /* Info.plist */,
@@ -110,22 +98,21 @@
 			path = Pikabu;
 			sourceTree = "<group>";
 		};
-		1F92688E258F6286009326F7 /* PikabuTests */ = {
+		C42B9A55AB9D82390D8892A0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1F92688F258F6286009326F7 /* PikabuTests.swift */,
-				1F926891258F6286009326F7 /* Info.plist */,
+				D06F7336FA7C9D389E4E7CE7 /* Pods-Pikabu.debug.xcconfig */,
+				5B65BA75F840DE5EFE9AD9E6 /* Pods-Pikabu.release.xcconfig */,
 			);
-			path = PikabuTests;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		1F926899258F6286009326F7 /* PikabuUITests */ = {
+		C970A398C59809D97BFA36E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1F92689A258F6286009326F7 /* PikabuUITests.swift */,
-				1F92689C258F6286009326F7 /* Info.plist */,
+				A7E773B1037C238CBE3C1ED2 /* Pods_Pikabu.framework */,
 			);
-			path = PikabuUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F92689F258F6286009326F7 /* Build configuration list for PBXNativeTarget "Pikabu" */;
 			buildPhases = (
+				4DEA95164126718CEF53D1E1 /* [CP] Check Pods Manifest.lock */,
 				1F926871258F6282009326F7 /* Sources */,
 				1F926872258F6282009326F7 /* Frameworks */,
 				1F926873258F6282009326F7 /* Resources */,
+				29894C98AD577663EF77D7BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,42 +137,6 @@
 			productReference = 1F926875258F6282009326F7 /* Pikabu.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1F92688A258F6286009326F7 /* PikabuTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1F9268A2258F6286009326F7 /* Build configuration list for PBXNativeTarget "PikabuTests" */;
-			buildPhases = (
-				1F926887258F6286009326F7 /* Sources */,
-				1F926888258F6286009326F7 /* Frameworks */,
-				1F926889258F6286009326F7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1F92688D258F6286009326F7 /* PBXTargetDependency */,
-			);
-			name = PikabuTests;
-			productName = PikabuTests;
-			productReference = 1F92688B258F6286009326F7 /* PikabuTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		1F926895258F6286009326F7 /* PikabuUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1F9268A5258F6286009326F7 /* Build configuration list for PBXNativeTarget "PikabuUITests" */;
-			buildPhases = (
-				1F926892258F6286009326F7 /* Sources */,
-				1F926893258F6286009326F7 /* Frameworks */,
-				1F926894258F6286009326F7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1F926898258F6286009326F7 /* PBXTargetDependency */,
-			);
-			name = PikabuUITests;
-			productName = PikabuUITests;
-			productReference = 1F926896258F6286009326F7 /* PikabuUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -192,18 +145,10 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1160;
-				ORGANIZATIONNAME = "Алексей";
+				ORGANIZATIONNAME = "Танчик";
 				TargetAttributes = {
 					1F926874258F6282009326F7 = {
 						CreatedOnToolsVersion = 11.6;
-					};
-					1F92688A258F6286009326F7 = {
-						CreatedOnToolsVersion = 11.6;
-						TestTargetID = 1F926874258F6282009326F7;
-					};
-					1F926895258F6286009326F7 = {
-						CreatedOnToolsVersion = 11.6;
-						TestTargetID = 1F926874258F6282009326F7;
 					};
 				};
 			};
@@ -221,8 +166,6 @@
 			projectRoot = "";
 			targets = (
 				1F926874258F6282009326F7 /* Pikabu */,
-				1F92688A258F6286009326F7 /* PikabuTests */,
-				1F926895258F6286009326F7 /* PikabuUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,77 +177,76 @@
 			files = (
 				1F926885258F6286009326F7 /* LaunchScreen.storyboard in Resources */,
 				1F926882258F6286009326F7 /* Assets.xcassets in Resources */,
-				1F926880258F6282009326F7 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F926889258F6286009326F7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F926894258F6286009326F7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29894C98AD577663EF77D7BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pikabu/Pods-Pikabu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pikabu/Pods-Pikabu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pikabu/Pods-Pikabu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DEA95164126718CEF53D1E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pikabu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1F926871258F6282009326F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9268AB258F6F59009326F7 /* SavedPostsController.swift in Sources */,
 				1F92687D258F6282009326F7 /* ViewController.swift in Sources */,
+				1F47482225935B21001A0822 /* ErrorCollectionCell.swift in Sources */,
+				1FA4B1202594C41100B7A38B /* EmptyCollectionCell.swift in Sources */,
 				1F926879258F6282009326F7 /* AppDelegate.swift in Sources */,
 				1F92687B258F6282009326F7 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F926887258F6286009326F7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F926890258F6286009326F7 /* PikabuTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F926892258F6286009326F7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F92689B258F6286009326F7 /* PikabuUITests.swift in Sources */,
+				1F9268B1258F8BFF009326F7 /* PostCollectionViewCell.swift in Sources */,
+				1F9268A9258F6DEA009326F7 /* FeedController.swift in Sources */,
+				1F9268AF258F7431009326F7 /* Post.swift in Sources */,
+				1F9268AD258F7274009326F7 /* PostsService.swift in Sources */,
+				1FA2BA9A25922A7E007615CB /* LoadingCollectionCell.swift in Sources */,
+				1FA4B11E2594A16100B7A38B /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		1F92688D258F6286009326F7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1F926874258F6282009326F7 /* Pikabu */;
-			targetProxy = 1F92688C258F6286009326F7 /* PBXContainerItemProxy */;
-		};
-		1F926898258F6286009326F7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1F926874258F6282009326F7 /* Pikabu */;
-			targetProxy = 1F926897258F6286009326F7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		1F92687E258F6282009326F7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F92687F258F6282009326F7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1F926883258F6286009326F7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +374,7 @@
 		};
 		1F9268A0258F6286009326F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D06F7336FA7C9D389E4E7CE7 /* Pods-Pikabu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -440,7 +383,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SS.Pikabu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanchik.Pikabu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,6 +392,7 @@
 		};
 		1F9268A1258F6286009326F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B65BA75F840DE5EFE9AD9E6 /* Pods-Pikabu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,90 +401,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SS.Pikabu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanchik.Pikabu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		1F9268A3258F6286009326F7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PikabuTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = SS.PikabuTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pikabu.app/Pikabu";
-			};
-			name = Debug;
-		};
-		1F9268A4258F6286009326F7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PikabuTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = SS.PikabuTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pikabu.app/Pikabu";
-			};
-			name = Release;
-		};
-		1F9268A6258F6286009326F7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PikabuUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = SS.PikabuUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Pikabu;
-			};
-			name = Debug;
-		};
-		1F9268A7258F6286009326F7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PikabuUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = SS.PikabuUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Pikabu;
 			};
 			name = Release;
 		};
@@ -561,24 +425,6 @@
 			buildConfigurations = (
 				1F9268A0258F6286009326F7 /* Debug */,
 				1F9268A1258F6286009326F7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1F9268A2258F6286009326F7 /* Build configuration list for PBXNativeTarget "PikabuTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F9268A3258F6286009326F7 /* Debug */,
-				1F9268A4258F6286009326F7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1F9268A5258F6286009326F7 /* Build configuration list for PBXNativeTarget "PikabuUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F9268A6258F6286009326F7 /* Debug */,
-				1F9268A7258F6286009326F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

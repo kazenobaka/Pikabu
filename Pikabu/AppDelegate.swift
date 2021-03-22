@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Pikabu
 //
-//  Created by Алексей on 20.12.2020.
-//  Copyright © 2020 Алексей. All rights reserved.
+//  Created by Танчик on 20.12.2020.
+//  Copyright © 2020 Танчик. All rights reserved.
 //
 
 import UIKit
